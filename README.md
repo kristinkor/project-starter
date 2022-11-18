@@ -1,6 +1,7 @@
 # iWardrobe
 
 iWardrobe is a full stack web application starter template for building projects with React, Express.js, and Sequelize.js
+https://www.figma.com/file/1bf0Z9PE8AtSr4d62umTGj/iWardrobe?node-id=1%3A2&t=YJOAhr5afh1v7ZNM-0
 
 **Current version:** 2022.2 (Nov 2022)
 
