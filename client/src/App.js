@@ -11,13 +11,15 @@ import "./App.css";
 
 function Navigation(props) {
   return (
-    <nav className="navbar navbar-expand-sm navbar-dark shadow mb-3">
-      <div className="container-fluid">
-        
+    <nav className="navbar navbar-expand-sm navbar-dark mb-3">
+     
+      <ul className="navbar-nav me-auto container-fluid">
+      <li className="nav-item flex-fill">
         <Link className="navbar-brand" to="/">
           iWardrobe
         </Link>
-        <ul className="navbar-nav me-auto">
+        </li>
+        
           {/* <li className="nav-item">
             <NavLink className="nav-link" to="/posts/new">
               Create a Micro Post
@@ -28,18 +30,18 @@ function Navigation(props) {
               About Us
             </NavLink>
           </li> */}
-          <li className="nav-item">
+          <li className="nav-item flex-fill">
             <NavLink className="nav-link logo" to="/about-us">
             <Avatar avatar={data[0].avatar}/>
             </NavLink>
           </li>
-          <li className="nav-item">
+          <li className="nav-item flex-fill d-flex justify-content-end">
             <NavLink className="nav-link" to="/about-us">
               log in
             </NavLink>
           </li>
         </ul>
-      </div>
+   
     </nav>
   );
 }
