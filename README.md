@@ -1,8 +1,8 @@
-# CTP Project Starter
+# iWardrobe
 
-A full stack web application starter template for building projects with React, Express.js, and Sequelize.js
+iWardrobe is a full stack web application starter template for building projects with React, Express.js, and Sequelize.js
 
-**Current version:** 2022.2 (Oct 2022)
+**Current version:** 2022.2 (Nov 2022)
 
 ## Stack
 
