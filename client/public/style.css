@@ -1,0 +1,35 @@
+a.navbar-brand {
+    font-family: 'Love Light';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+
+    color: #603F8B;
+}
+
+a.nav-link {
+    font-family: 'Love Light';
+    font-weight: 400;
+    font-size: 35px;
+
+    color: #603F8B;
+}
+
+.avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    z-index: 2;
+    object-fit: cover;
+
+}
+
+.avatar::after {
+  position: absolute;
+  top: -4px; bottom: -4px;
+  left: -4px; right: -4px;
+  background: linear-gradient(#B4FEE7, Fuchsia);
+  content: '';
+  z-index: 1;
+  border-radius:50%;
+}
