@@ -12,6 +12,7 @@
   "author": "Edgardo Molina",
   "license": "MIT",
   "dependencies": {
+    "clsx": "^1.1.1",
     "express": "^4.18.2",
     "morgan": "^1.10.0",
     "pg": "^8.8.0",

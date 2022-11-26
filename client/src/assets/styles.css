@@ -43,6 +43,7 @@ html {
 body {
   margin: 0; /* 1 */
   line-height: inherit; /* 2 */
+  font-size: 16px;
 }
 /*
 1. Add the correct height in Firefox.
@@ -1306,6 +1307,9 @@ select {
 .ml-4 {
   margin-left: 1rem;
 }
+.mr-4 {
+  margin-right: 1rem;
+}
 .mt-2 {
   margin-top: 0.5rem;
 }
@@ -1862,7 +1866,7 @@ header {
     font-family: 'Love Light';
     font-style: normal;
     font-weight: 400;
-    font-size: 100px;
+    font-size: 80px;
 
     color: #603F8B;
 }
@@ -1891,8 +1895,8 @@ a.nav-link {
 } */
 
 .avatar img{
-    width: 124px;
-    height: 124px;
+    width: 114px;
+    height: 114px;
     border-radius: 50%;
     z-index: 2;
     object-fit: cover;
@@ -1914,21 +1918,27 @@ button {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1em;
     padding:  12px 17px;
     /* or 273% */
 
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
-    
+    transition: .3s ease-in-out;
+}
+
+button:hover {
+  background:#FD49A0;
+  color: white;
+  box-shadow: 0px 4px 10px rgba(2, 87, 251, 0.3);
 }
 
 .bold-header-text {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
-  font-size: 60px;
+  font-size: 50px;
   width:50%;
   /* identical to box height, or 120% */
   justify-content: flex-end;
@@ -1939,7 +1949,7 @@ button {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  font-size: 51px;
+  font-size: 41px;
   width:50%;
   justify-content: flex-start;
   /* identical to box height, or 188% */
@@ -1954,7 +1964,7 @@ button {
   position: absolute;
   font-family: 'Roboto';
   font-weight: 700;
-  font-size: 100px;
+  font-size: 70px;
   text-align: center;
   left: 0;
   right: 0;
@@ -1963,7 +1973,7 @@ button {
 }
 
 .sweater-container img {
-  max-width: 400px;
+  max-width: 350px;
 }
 
 
@@ -1973,10 +1983,8 @@ footer h3 {
   font-weight: 700;
   font-size: 20px;
   padding-bottom: 40px;
-  /* identical to box height, or 150% */
 
   text-transform: uppercase;
-
   color: #000000;
 }
 
@@ -1984,13 +1992,21 @@ footer{
   text-align: left;
 }
 
+.logo-footer {
+  font-family: 'Love Light';
+  font-size: 40px;
+  color: #603F8B;
+}
+
 footer p {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 300;
-  font-size: 19px;
-  /* identical to box height, or 130% */
-
+  font-size: 16px;
 
   color: #747474;
+}
+
+.socials a:hover svg {
+  fill: #FD49A0;
 }
