@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "clsx": "^1.2.1",
+    "mdbreact": "4.27.0",
     "author": "Kristina Korzhenevskaya & Alif Rahi",
     "homepage": "",
     "repository": {
